@@ -48,7 +48,7 @@ resource "aws_security_group" "demo22" {
   vpc_id = aws_vpc.mytfvpc.id
 
   ingress {
-    hello123 : ::;123
+    hello123 = 123
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
