@@ -97,6 +97,6 @@ resource "aws_instance" "server2" {
   key_name                    = "mykey"
 
   tags = {
-    Name = "tfserver2"
+    Name = "tfserver3"
   }
 }
